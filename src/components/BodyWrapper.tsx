@@ -11,7 +11,7 @@ const BodyWrapper: FC<Props> = ({ children }) => {
   //   (state) => state.modalSlice.bodyOverflowHidden
   // );
 
-  return <body className={`'bg-white`}>{children}</body>;
+  return <body className='bg-gray-100'>{children}</body>;
 };
 
 export default BodyWrapper;
